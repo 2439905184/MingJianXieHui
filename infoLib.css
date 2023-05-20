@@ -1,28 +1,27 @@
 /* 双页资料库,目录式 */
 .app
 {
-display: inline-flex;
+    display: inline-flex;
 }
 .app > .left
 {
     width: auto;
     border: solid 2px red;
 }
-.app > .left > ol
+.app > .left > dl
 {
     text-decoration: underline;
     text-decoration-color: aqua;
 }
-.app > .left > ol:hover
+.app > .left > dl:hover
 {
     cursor: pointer;
 }
-.app > .left > ol > li:hover
+.app > .left > dl > li:hover
 {
     color: aqua;
     cursor: pointer;
 }
-
 .app > .right
 {
     
